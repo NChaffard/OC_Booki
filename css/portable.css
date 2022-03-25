@@ -1,0 +1,152 @@
+/* ------------ CSS pour affichage sur téléphone -------------- */
+
+    
+.conteneur{
+    padding: 0;
+}
+h2{
+    height: auto;
+}
+
+/* banniere */
+#menu-banniere{
+    flex-direction: column;
+}
+#menu-banniere h1{
+    text-align: center;
+}
+#menu-banniere img{
+    margin: 0;
+    transform: scale(0.5);
+}
+#menu-banniere li{
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    border-top: none;
+    border-bottom:#F2F2F2 5px solid ;
+    padding: 15px 15px;
+    width: 100%;        
+}
+#menu-banniere li:hover, #menu-banniere li:active{
+    border-color: #0065FC;
+}
+
+/* recherche */
+#recherche{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#recherche button{
+    padding: 0;
+    width: 50px;
+    border-radius: 15px;
+}
+#choix-ville input{
+    width: 100%;
+}
+.desktop-button{
+    display: none;
+}
+.portable-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+
+}
+
+/* filtres */
+#filtres{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#filtres ul{
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#filtres li{
+    margin-bottom: 10px;
+}
+#recherche blockquote{
+    margin-top: 10px;
+}
+
+/* Partie centrale */
+.conteneur-centre{
+    flex-direction: column;
+}
+.centre
+{
+    border-radius: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.centre ul{
+    display: flex;
+    flex-direction: column;
+}
+.centre li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.carte{
+    width: 100%;
+}
+
+/* hebergements */
+#hebergements{
+    background: transparent;
+    margin-right: 0;
+    order: 2;
+}
+
+/* Activites */
+#activites{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#activites header{
+    margin-bottom: 10px;
+}
+#activites ul{
+    height: auto;
+}
+
+/* cartes activites */
+.activite{
+    margin: 10px 0 10px 0;
+    max-width: none;
+}
+#activite-1, #activite-2, #activite-3, #activite-4, #activite-5, #activite-6{
+    height: 190px;
+}
+#activite-1 img, #activite-2 img, #activite-3 img, #activite-4 img, #activite-5 img, #activite-6 img{
+    height: 134px;
+}
+
+/* footer */
+.footer{
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer li{
+    padding: 5px 0 5px 0;
+}
+.footer section{
+    margin-bottom: 40px;
+}
+.footer h3{
+    margin-bottom: 10px;
+}

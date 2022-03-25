@@ -1,0 +1,118 @@
+/* ------------------CSS pour affichage sur tablette-------------------------------------- */
+
+.conteneur{
+    padding: 0;
+}
+
+/* Section recherche */
+#recherche{
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+#recherche blockquote p{
+    padding-left: 10px;
+}
+#choix-ville{
+    justify-content: center;
+}
+#choix-ville input{
+    width: 60%;
+}
+#filtres{
+    flex-direction: column;
+    margin-top: 60px;
+}
+#filtres h3{
+    margin-bottom: 10px;
+}
+#filtres ul{
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* reglages partie centrale */
+.conteneur-centre{
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 20px 10px 20px 10px;
+
+}
+.centre{
+    padding: 0;
+    border-radius: 0;
+}
+
+/* populaires */
+#populaires h2{
+    text-align: center;
+    width: 100%;
+}
+#populaires img{
+    min-width: 120px;
+}
+.icone-populaires{
+    display: none;
+}
+/* Carte populaire */
+.populaire{
+    width:280px;
+}
+
+/* hebergements */
+#hebergements{
+    margin-right: 10px;
+    max-width: 867px;
+}
+#hebergements h2{
+    text-align: center;
+}
+#hebergements ul{
+    margin-bottom: 0;
+}
+/* Carte hebergement*/
+.hebergement{
+    width: 217px;
+}
+
+/* activités */
+#activites{
+    padding: 0 10px 0 10px;
+}
+.activites-espacement{
+    max-width: 20px;
+}
+#activites h2{
+    text-align: center;
+}
+/*Carte activité */
+.activite h3{
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+.conteneur-texte-populaire p{
+    font-size: 14px;
+}
+
+/* footer */
+.footer{
+    justify-content: space-between;
+}
+.footer section{
+    width: auto;
+}
+
+
+/* ------------------*/
+/* affichage paysage */
+/* ------------------*/
+@media screen and (orientation: landscape){
+
+    /* Cartes */
+    .hebergement{
+        width: 217px;
+    }
+    .populaire{
+        width: 260px;
+    }
+}

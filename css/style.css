@@ -9,12 +9,12 @@
 html{
     font-family: Raleway, sans-serif;
     max-width: 1440px;
-    margin: auto;
+    /* margin: auto; */
 }
 .conteneur{
     padding: 0 50px;
 }
-h2{
+h1, h2{
     font-size: 22px;
 }
 h3{
@@ -39,12 +39,11 @@ ul{
     justify-content: space-between;
 }
 
-#menu-banniere h1{
-    /* hauteur du titre de la banniere corespondant a la hauteur du logo */
-    height:135px; 
-}
+
 #menu-banniere img{
     /* taille du logo /3 donc marge negative = (largeur origine - nouvelle largeur)/2 */
+    width: auto;
+    height:135px; 
     transform: scale(0.3);
     margin-left: -95px;
 }
@@ -126,11 +125,10 @@ ul{
     display: flex;
 }
 #filtres h3{
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
+    align-self: center;
     font-size: 17px;
     padding-left: 10px;
+    margin-right: 10px;
 }
 #filtres ul{
     display: flex;
@@ -230,6 +228,10 @@ ul{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+#hebergements li{
+    width: 30%;
+    min-width: 195px;
+}
 #hebergements footer{
     margin-top: 10px;
 }
@@ -239,6 +241,10 @@ ul{
 }
 
 /* section populaires */
+#populaires{
+    width: 41%;
+    min-width: 362px;
+}
 #populaires header{
     display: flex;
     justify-content: space-between;
@@ -248,6 +254,10 @@ ul{
 }
 #populaires ul{
     justify-content: space-between;
+    width: 100%;
+}
+#populaires li{
+    width: 100%;
 }
 
 /* Parametres globaux des cartes*/
@@ -282,14 +292,15 @@ ul{
 
 /* Carte hebergement */
 .hebergement{
-    height: 199px;
-    width: 246px;
-
+    height: 100%;
 }
 .hebergement img{
     height:119px;
     width: 100%;
     border-radius: 15px 15px 0 0;
+}
+.hebergement .note{
+    margin-bottom: 5px;
 }
 .conteneur-texte-hebergement{
     padding-left: 10px;
@@ -299,7 +310,6 @@ ul{
 /* carte populaire */
 .populaire{
     display: flex;
-    width: 343px;
     height: 144px;
 }
 .populaire a{
@@ -308,14 +318,14 @@ ul{
 
 .populaire img{
     border-radius: 15px 0 0 15px;
-    width: 120px;
-    height: 100%;
+    width: 35%;
 }
 .conteneur-texte-populaire{
     position: relative;
     padding-left: 20px;
     padding-top: 12px;
     padding-right: 12px;
+    width: 65%;
 }
 .populaire .note{
     position: absolute;

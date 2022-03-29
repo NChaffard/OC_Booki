@@ -16,7 +16,6 @@ html{
 }
 h2{
     font-size: 22px;
-    /* height: 21px; */
 }
 h3{
     font-size: medium;
@@ -63,9 +62,7 @@ ul{
     visibility: visible;
     font-size: 16px;
 }
-#menu-banniere a:hover{
-    /* font-weight: bold; */
-}
+
 /*...qui devient visible au survol  */
 #menu-banniere li:hover{
     visibility: visible;

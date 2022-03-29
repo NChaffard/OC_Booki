@@ -143,6 +143,7 @@ ul{
     justify-content: flex-start;
     font-weight: bold;
     height: 50px;
+    white-space: nowrap;
 }
 #filtres li:hover, #filtres li:active{
     background-color:#DEEBFF;

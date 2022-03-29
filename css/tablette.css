@@ -68,6 +68,7 @@
 }
 #hebergements ul{
     margin-bottom: 0;
+    justify-content: space-evenly;
 }
 /* Carte hebergement*/
 .hebergement{

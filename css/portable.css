@@ -63,6 +63,10 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
 }
+#filtres h3{
+    padding-left: 0;
+    font-size: 18px;
+}
 #filtres ul{
     margin-top: 20px;
     justify-content: space-between;
@@ -85,7 +89,7 @@ h2{
     border-radius: 0%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .centre ul{
     display: flex;
@@ -108,6 +112,9 @@ h2{
     margin-right: 0;
     order: 2;
 }
+#hebergements footer{
+    margin-top: 25px;
+}
 
 /* Activites */
 #activites{
@@ -120,6 +127,7 @@ h2{
 }
 #activites ul{
     height: auto;
+    margin-top: 20px;
 }
 
 /* cartes activites */
@@ -139,10 +147,11 @@ h2{
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 40px;
 }
 
 .footer li{
-    padding: 5px 0 5px 0;
+    padding: 10px 0 10px 0;
 }
 .footer section{
     margin-bottom: 40px;

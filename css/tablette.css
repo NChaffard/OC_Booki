@@ -43,6 +43,9 @@
 }
 
 /* populaires */
+#populaires{
+    min-width: fit-content;
+}
 #populaires h2{
     text-align: center;
     width: 100%;
@@ -50,9 +53,7 @@
 #populaires img{
     min-width: 120px;
 }
-.icone-populaires{
-    display: none;
-}
+
 /* Carte populaire */
 .populaire{
     width:280px;
@@ -70,9 +71,9 @@
     margin-bottom: 0;
     justify-content: space-evenly;
 }
-/* Carte hebergement*/
-.hebergement{
-    width: 217px;
+#hebergements li{
+    width: 46%;
+    min-width: 220px;
 }
 
 /* activités */
@@ -91,6 +92,10 @@
     justify-content: center;
     text-align: center;
 }
+.conteneur-texte-populaire{
+    padding-right: 0;
+    padding-left: 10px;
+}
 .conteneur-texte-populaire p{
     font-size: 14px;
 }
@@ -101,19 +106,4 @@
 }
 .footer section{
     width: auto;
-}
-
-
-/* ------------------*/
-/* affichage paysage */
-/* ------------------*/
-@media screen and (orientation: landscape){
-
-    /* Cartes */
-    .hebergement{
-        width: 217px;
-    }
-    .populaire{
-        width: 260px;
-    }
 }

@@ -7,9 +7,10 @@
 }
 
 html{
+    scroll-behavior: smooth;
     font-family: Raleway, sans-serif;
     max-width: 1440px;
-    /* margin: auto; */
+    margin: auto;
 }
 .conteneur{
     padding: 0 50px;
@@ -202,6 +203,7 @@ ul{
 .conteneur-centre{
     margin-top: 40px;
     display: flex;
+    justify-content: space-between;
 }
 
 /* Paramètres communs aux sections centrales*/
@@ -230,7 +232,7 @@ ul{
 }
 #hebergements li{
     width: 30%;
-    min-width: 195px;
+    min-width: 143px;
 }
 #hebergements footer{
     margin-top: 10px;
@@ -243,7 +245,7 @@ ul{
 /* section populaires */
 #populaires{
     width: 41%;
-    min-width: 362px;
+    min-width: 333px;
 }
 #populaires header{
     display: flex;
@@ -263,7 +265,7 @@ ul{
 /* Parametres globaux des cartes*/
 .carte{
     background: white;
-    box-shadow: 5px 5px 10px #bbbbbb;
+    box-shadow: 5px 5px 10px #d9d9d9;
     border-radius: 20px;
     padding: 5px;
 }
@@ -273,6 +275,13 @@ ul{
 .carte p{
     padding: 5px 0 5px 0;
     font-size: 15px;
+}
+.carte a:hover{
+    color: black;
+}
+.carte:hover, .carte:active{
+    transform: scale(1.05);
+    transition: transform 200ms;
 }
 
 /* Parametres des notes */
@@ -306,7 +315,6 @@ ul{
     padding-left: 10px;
     padding-top: 5px;
 }
-
 /* carte populaire */
 .populaire{
     display: flex;
@@ -314,18 +322,19 @@ ul{
 }
 .populaire a{
     display: flex;
+    width: 100%;
 }
 
 .populaire img{
     border-radius: 15px 0 0 15px;
-    width: 35%;
+    width: 40%;
+    aspect-ratio: 16/9;
 }
 .conteneur-texte-populaire{
     position: relative;
     padding-left: 20px;
     padding-top: 12px;
-    padding-right: 12px;
-    width: 65%;
+    width: 60%;
 }
 .populaire .note{
     position: absolute;

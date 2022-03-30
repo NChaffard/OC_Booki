@@ -4,27 +4,28 @@
 .conteneur{
     padding: 0;
 }
-h2{
-    height: auto;
-}
+
 
 /* banniere */
 #menu-banniere{
     flex-direction: column;
 }
-#menu-banniere h1{
-    text-align: center;
-}
+
 #menu-banniere img{
+    align-self: center;
     margin: 0;
-    transform: scale(0.5);
+    margin-top: -20px;
+    width: fit-content;
+}
+#menu-banniere ul{
+    margin-top: -30px;
 }
 #menu-banniere li{
     visibility: visible;
     display: flex;
     justify-content: center;
     border-top: none;
-    border-bottom:#F2F2F2 5px solid ;
+    border-bottom:#F2F2F2 3px solid ;
     padding: 15px 15px;
     width: 100%;        
 }
@@ -38,10 +39,14 @@ h2{
     padding-left: 20px;
     padding-right: 20px;
 }
-#recherche button{
+#choix-ville{
+    margin-top: 25px;
+}
+#choix-ville button{
     padding: 0;
     width: 50px;
     border-radius: 15px;
+    margin-left: -15px;
 }
 #choix-ville input{
     width: 100%;
@@ -55,17 +60,18 @@ h2{
     align-items: center;
     width: 50px;
     height: 100%;
-
 }
 
 /* filtres */
 #filtres{
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 #filtres h3{
     padding-left: 0;
     font-size: 18px;
+    align-self: flex-start;
 }
 #filtres ul{
     margin-top: 20px;
@@ -79,7 +85,10 @@ h2{
 #recherche blockquote{
     margin-top: 10px;
 }
-
+.icone-quote{
+    margin-left: 0;
+    margin-bottom: 20px;
+}
 /* Partie centrale */
 .conteneur-centre{
     flex-direction: column;
@@ -105,12 +114,19 @@ h2{
 .carte{
     width: 100%;
 }
+#populaires{
+width: 100%;
+min-width: fit-content;
+}
 
 /* hebergements */
 #hebergements{
     background: transparent;
     margin-right: 0;
     order: 2;
+}
+#hebergements li{
+    width: 100%;
 }
 #hebergements footer{
     margin-top: 25px;

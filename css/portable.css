@@ -128,7 +128,7 @@ min-width: fit-content;
 #hebergements li{
     width: 100%;
 }
-#hebergements footer{
+#hebergements .pied{
     margin-top: 25px;
 }
 
@@ -138,7 +138,7 @@ min-width: fit-content;
     padding-right: 20px;
     padding-top: 20px;
 }
-#activites header{
+#activites .en-tete{
     margin-bottom: 10px;
 }
 #activites ul{

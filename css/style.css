@@ -134,7 +134,8 @@ ul{
 #filtres ul{
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 100%;
+    max-width: 871px;
 }
 #filtres li{
     display: flex;
@@ -214,7 +215,7 @@ ul{
     padding-top: 50px;
     border-radius: 20px;
 }
-.centre header{
+.centre .en-tete{
     margin-bottom: 30px;
 }
 .centre li{
@@ -234,10 +235,10 @@ ul{
     width: 30%;
     min-width: 143px;
 }
-#hebergements footer{
+#hebergements .pied{
     margin-top: 10px;
 }
-#hebergements footer a{
+#hebergements .pied a{
     font-weight: bold;
     font-size: 18px;
 }
@@ -247,7 +248,7 @@ ul{
     width: 41%;
     min-width: 333px;
 }
-#populaires header{
+#populaires .en-tete{
     display: flex;
     justify-content: space-between;
 }
